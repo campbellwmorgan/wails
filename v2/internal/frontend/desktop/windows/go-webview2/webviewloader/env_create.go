@@ -12,10 +12,6 @@ import (
 	"golang.org/x/sys/windows"
 )
 
-func init() {
-	fmt.Println("DEB | Using go webview2loader")
-}
-
 type webView2RunTimeType int32
 
 const (
